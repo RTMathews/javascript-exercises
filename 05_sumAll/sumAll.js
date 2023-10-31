@@ -8,11 +8,14 @@ const sumAll = function(num1, num2) {
     {
         return 'ERROR';
     }
-    for (let i = num1; i <= num2; i++)
+    if (num1 < num2)
     {
-       finalSum = i + finalSum;
+        for (let i = num1; i <= num2; i++)
+        {
+        finalSum = i + finalSum;
+        }
+        return finalSum;
     }
-    return finalSum;
 };
 //console.log(sumAll(1, 4));
 
