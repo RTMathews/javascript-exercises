@@ -1,6 +1,10 @@
 const removeFromArray = function(array, ...args) {
+    const newArr = [];
     array.forEach(items => {
-        
+        if (args.includes(items))
+        {
+
+        }
     })
 };
 
