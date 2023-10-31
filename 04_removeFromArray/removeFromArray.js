@@ -1,7 +1,7 @@
 const removeFromArray = function(array, ...args) {
     const newArr = [];
     array.forEach(items => {
-        if (args.includes(items))
+        if (!args.includes(items))
         {
             newArr.push(items)
         }
