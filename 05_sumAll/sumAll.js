@@ -22,6 +22,7 @@ const sumAll = function(num1, num2) {
         {
             finalSum = i + finalSum;
         }
+        return finalSum;
     }
 };
 //console.log(sumAll(1, 4));
