@@ -3,9 +3,10 @@ const removeFromArray = function(array, ...args) {
     array.forEach(items => {
         if (args.includes(items))
         {
-            newArr.push(items);
+            newArr.push(items)
         }
-    })
+    });
+    return newArr;
 };
 
 // Do not edit below this line
