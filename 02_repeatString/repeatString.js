@@ -10,6 +10,7 @@ const repeatString = function(word, num) {
     {
         string += word;
     }
+    return string;
 };
 
 // Do not edit below this line
