@@ -1,5 +1,5 @@
-const repeatString = function() {
-
+const repeatString = function(hey, num) {
+    
 };
 
 // Do not edit below this line
