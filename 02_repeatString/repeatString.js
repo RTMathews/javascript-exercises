@@ -1,6 +1,6 @@
-const repeatString = function(string, num) {
+const repeatString = function(word, num) {
     let times = num;
-    let word = string;
+    let string = "";
 
     if (times < 0)
     {
@@ -8,7 +8,7 @@ const repeatString = function(string, num) {
     }
     for (let i = 0; i < times; i++)
     {
-        
+
     }
 };
 
