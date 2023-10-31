@@ -8,7 +8,7 @@ const repeatString = function(word, num) {
     }
     for (let i = 0; i < times; i++)
     {
-
+        string += word;
     }
 };
 
