@@ -5,6 +5,7 @@ const reverseString = function(word) {
     {
         string += word;
     }
+    return string;
 };
 
 // Do not edit below this line
