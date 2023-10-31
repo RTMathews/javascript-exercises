@@ -18,7 +18,7 @@ const sumAll = function(num1, num2) {
     }
     else if (num1 > num2)
     {
-        for (let i = num2; i <= num2; i++)
+        for (let i = num2; i <= num1; i++)
         {
             finalSum = i + finalSum;
         }
