@@ -6,6 +6,10 @@ const repeatString = function(string, num) {
     {
         return 'ERROR';
     }
+    for (let i = 0; i < times; i++)
+    {
+        
+    }
 };
 
 // Do not edit below this line
