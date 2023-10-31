@@ -4,7 +4,7 @@ const sumAll = function(num1, num2) {
     {
         return 'ERROR';
     }
-    else if (typeof num1 === 'string')
+    else if (typeof num1 !== 'number' || typeof num2 !== 'number')
     {
         return 'ERROR';
     }
