@@ -3,7 +3,7 @@ const convertToCelsius = function(temp) {
   return Math.round(toC * 10) /10;
 };
 //console.log(convertToCelsius(100));
-const convertToFahrenheit = function() {
+const convertToFahrenheit = function(temp) {
 };
 
 // Do not edit below this line
