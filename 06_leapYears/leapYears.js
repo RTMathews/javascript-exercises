@@ -3,6 +3,10 @@ const leapYears = function(year) {
     {
         return true;
     }
+    else
+    {
+        return false;
+    }
 };
 console.log(leapYears(1996));
 
