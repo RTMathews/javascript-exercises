@@ -3,12 +3,8 @@ const leapYears = function(year) {
     {
         return true;
     }
-    else
-    {
-        return false;
-    }
 };
-leapYears(2000);
+console.log(leapYears(1999));
 
 // Do not edit below this line
 module.exports = leapYears;
