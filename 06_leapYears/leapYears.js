@@ -15,7 +15,7 @@ const leapYears = function(year) {
         return false;
     }
 };
-console.log(leapYears(700));
+console.log(leapYears(1600));
 
 // Do not edit below this line
 module.exports = leapYears;
