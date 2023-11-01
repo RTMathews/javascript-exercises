@@ -4,6 +4,7 @@ const convertToCelsius = function(temp) {
 };
 //console.log(convertToCelsius(100));
 const convertToFahrenheit = function(temp) {
+  let toF = (temp * 1.8) + 32;
 };
 
 // Do not edit below this line
